@@ -27,8 +27,12 @@
 <img width="740" height="573" alt="image" src="https://github.com/user-attachments/assets/dafc97fe-c87f-46a1-9f70-9f211c8be47f" />
 
 ## 8. 實作 1175 & 1175a：切片實務與 range() 步進迴圈
+<img width="602" height="746" alt="image" src="https://github.com/user-attachments/assets/70e3181d-4f6d-4414-a849-6687de86de5f" />
 
-## 9.
+
+## 9. Table 9X9
+<img width="915" height="453" alt="image" src="https://github.com/user-attachments/assets/e03290bc-9253-43af-a568-b8d019acb366" />
+
 
 ## 10. 課堂成果驗證與時間戳記 (Final Result)
 
