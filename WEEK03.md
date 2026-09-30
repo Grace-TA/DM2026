@@ -29,12 +29,19 @@ P1133C continue 示範: 當 aa > 5 時跳過印出，但繼續迴圈
 ### Solution by try-except
 <img width="837" height="530" alt="image" src="https://github.com/user-attachments/assets/25e5b344-e39c-4dfd-8358-4f7480377bc8" />
 
-
 ## 09. 物件導向程式設計入門 (OOP & Classes)
+<img width="839" height="627" alt="image" src="https://github.com/user-attachments/assets/1f600c4e-74db-4f58-97bf-d48da1fb52f6" />
+
+## 10. 科學計算與視覺化作圖 (Matplotlib & NumPy)
+<img width="845" height="726" alt="image" src="https://github.com/user-attachments/assets/a441bcf7-89c4-4d98-a1d9-f92d79f38156" />
+
+### 繪製 4 條具備不同相位差（ π ）之三角波，並套用自訂色彩與標題。
+<img width="856" height="681" alt="image" src="https://github.com/user-attachments/assets/a245d980-711e-4eaf-a364-a17702769dba" />
 
 
-## 10.
+## 11. 圓的參數式為  x=cos(heta),y=sin(heta) 。繪圖時必須設定長寬比為等比例
+<img width="646" height="668" alt="image" src="https://github.com/user-attachments/assets/370a0cfe-0089-4895-b0c6-c18404e98b52" />
 
-## 11.
 
-## 12. 
+## 12. 學習成果驗證與時間戳記 (Final Result)
+<img width="603" height="232" alt="image" src="https://github.com/user-attachments/assets/9ed819fc-93b3-47bf-9bef-1a33903a5a89" />
