@@ -19,11 +19,19 @@ P1133C continue 示範: 當 aa > 5 時跳過印出，但繼續迴圈
 ## 06. 集合 (Sets) 與集合推導: 式集合使用大括號 {}，元素不重複且無序 (Unordered)。由於無duplcation，無法像 List 一樣使用整數索引（如 s[0] 會報錯）。
 <img width="801" height="457" alt="image" src="https://github.com/user-attachments/assets/d50c0986-013a-490c-b809-577c544033e1" />
 
-## 07.
+## 07. 自訂函式 (Functions) 
+<img width="651" height="313" alt="image" src="https://github.com/user-attachments/assets/6c159823-b4d1-4f33-a013-cbcf8cbde564" />
 
-## 08.
+## 08. 以 try-except 示範錯誤捕捉，並展示修正後的代碼
+### Error, Oh,my god!!
+<img width="710" height="442" alt="image" src="https://github.com/user-attachments/assets/bfd609ca-de25-476c-a2ff-364c17089720" />
 
-## 09.
+### Solution by try-except
+<img width="837" height="530" alt="image" src="https://github.com/user-attachments/assets/25e5b344-e39c-4dfd-8358-4f7480377bc8" />
+
+
+## 09. 物件導向程式設計入門 (OOP & Classes)
+
 
 ## 10.
 
