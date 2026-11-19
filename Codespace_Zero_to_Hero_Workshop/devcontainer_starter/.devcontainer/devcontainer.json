@@ -1,0 +1,47 @@
+{
+  "name": "DM2026 Discrete Math & Python Cloud Lab (Ubuntu 24.04 LTS)",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb",
+    "storage": "32gb"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "GitHub.copilot",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.testing.pytestEnabled": true,
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "files.autoSave": "afterDelay",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "forwardPorts": [8000, 8080, 8888],
+  "portsAttributes": {
+    "8000": {
+      "label": "DM2026 Static Preview",
+      "onAutoForward": "notify"
+    },
+    "8080": {
+      "label": "Discrete Math Interactive Lab",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "python3 -m pip install --upgrade pip && pip install numpy matplotlib pytest jupyterlab && python3 scripts/verify_codespace_env.py || true",
+  "remoteUser": "vscode"
+}
