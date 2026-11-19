@@ -1,0 +1,92 @@
+{
+  "lookup_scaling": [
+    {
+      "label": "9x9 (81)",
+      "cells": 81,
+      "mines": 15,
+      "v1_list_scan_ms": 0.0466,
+      "v3_set_hash_ms": 0.0052,
+      "speedup_x": 8.94
+    },
+    {
+      "label": "30x30 (900)",
+      "cells": 900,
+      "mines": 200,
+      "v1_list_scan_ms": 3.4027,
+      "v3_set_hash_ms": 0.057,
+      "speedup_x": 59.69
+    },
+    {
+      "label": "60x60 (3,600)",
+      "cells": 3600,
+      "mines": 900,
+      "v1_list_scan_ms": 59.8532,
+      "v3_set_hash_ms": 0.2889,
+      "speedup_x": 207.15
+    },
+    {
+      "label": "100x100 (10,000)",
+      "cells": 10000,
+      "mines": 2500,
+      "v1_list_scan_ms": 511.0542,
+      "v3_set_hash_ms": 0.7833,
+      "speedup_x": 652.4
+    }
+  ],
+  "flood_fill_survival": [
+    {
+      "grid": "9x9",
+      "cells": 81,
+      "v1_status": "OK",
+      "v1_opened": 81,
+      "v1_ms": 0.2121,
+      "v3_status": "OK_WON",
+      "v3_opened": 81,
+      "v3_ms": 0.2806
+    },
+    {
+      "grid": "30x30",
+      "cells": 900,
+      "v1_status": "OK",
+      "v1_opened": 900,
+      "v1_ms": 2.7946,
+      "v3_status": "OK_WON",
+      "v3_opened": 900,
+      "v3_ms": 3.6601
+    },
+    {
+      "grid": "60x60",
+      "cells": 3600,
+      "v1_status": "CRASH_RecursionError",
+      "v1_opened": 0,
+      "v1_ms": null,
+      "v3_status": "OK_WON",
+      "v3_opened": 3600,
+      "v3_ms": 14.5961
+    },
+    {
+      "grid": "100x100",
+      "cells": 10000,
+      "v1_status": "CRASH_RecursionError",
+      "v1_opened": 0,
+      "v1_ms": null,
+      "v3_status": "OK_WON",
+      "v3_opened": 10000,
+      "v3_ms": 45.3907
+    }
+  ],
+  "invariants": {
+    "v1_shallow_aliasing_bug_reproduced": true,
+    "v3_row_ids_unique": true,
+    "v3_mines_exact_cardinality": true,
+    "v3_zero_cell_tested": [
+      0,
+      0
+    ],
+    "v3_flood_fill_opened": 6,
+    "v3_bfs_dfs_exact_equivalent": true,
+    "v3_fsm_absorbing_state_locked": true,
+    "v3_9x9_10mines_combinations": 1878392407320,
+    "v3_9x9_first_click_safety_pct": 87.65
+  }
+}

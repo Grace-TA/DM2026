@@ -13,5 +13,6 @@
 | **W02** | [`WEEK02.md`](./WEEK02.md) | **Python 101**（`calendar`, `math`, `%`, `if-else`, `bool`, `strings`, `enumerate`, `range`, 9×9） | 10 個實作單元 |
 | **W03** | [`WEEK03.md`](./WEEK03.md) | **Python 第二講**（Loops, Dict/Set, Functions, `try-except`, OOP, Matplotlib 三角波與單位圓） | 12 個實作單元 |
 | **WS-01** | [`Codespace_Zero_to_Hero_Workshop/`](./Codespace_Zero_to_Hero_Workshop/) | **GitHub Codespaces from ZERO to HERO (90 分鐘實戰工作坊)** — 5W1H、雙軌 5-Why、`/study5` 11-Why、Top 10 Playbooks、28 題 Classic Labs（含完整 Context Prompts 與學生指南）、90m 講師劇本、A4 速查卡與 Ubuntu 24.04 DevContainer 啟動包 | **7 冊完整教材（~346 KB）＋ 28 Labs ＋ 10 Playbooks** |
+| **GD-01** | [`AI_Game_Jam_Minesweeper_Golden_Demo/`](./AI_Game_Jam_Minesweeper_Golden_Demo/) | **W14–W17 AI Game Jam 期末專題黃金示範：《踩地雷 × 離散數學》** — 雙棲《踩地雷》引擎與互動網頁、V1→V3 Prompt 進化實測（`652.4×` 加速 & `100×100` 壓測）、18 頁 16:9 簡報（HTML/PDF + `P` 鍵 AI 語音 HUD）、20–25m 講稿 Q&A、3–5m 1080p Demo Video 分鏡＋一鍵合成器 | **18 頁 16:9 簡報＋6 項 Pytest 100% 通過＋4m46s 1080p MP4 合成器** |
 | **Ref-1** | [`codespace-trip_20261119.md.md`](./codespace-trip_20261119.md.md) | **Codespaces 實機探索筆記**（`Ubuntu 24.04.5 LTS` 4-Core / 16GB RAM 實測、Colab 取代與互補分析） | 實測技術參考 |
 | **Ref-2** | [`Key-Screenshot.md`](./Key-Screenshot.md) | **Key Screenshot Summary**（Linux GUI、Copilot Chat 與 Jupyter Notebook 啟動畫面） | 關鍵畫面紀錄 |
