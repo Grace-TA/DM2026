@@ -1,3 +1,5 @@
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/10586d1f-aae8-409d-8c29-f350423bbc51" />
+
 2026-11-19 14:02:00 CST
 
 ### 第一部分：三個實務技術問題的直接解答
